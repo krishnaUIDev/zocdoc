@@ -22,7 +22,13 @@ class Launch extends Component {
           {({ loading, error, data }) => {
             if (loading) return <h4> test</h4>
             if (error) return console.log(error)
-            return <Data data={data} />
+            return (
+              <Fragment>
+                {data.launches.map(launch => (
+                  <Data key={launch.flight_number} launch={launch} />
+                ))}
+              </Fragment>
+            )
           }}
         </Query>
       </Fragment>
