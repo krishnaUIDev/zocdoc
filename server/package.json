@@ -1,0 +1,25 @@
+{
+  "name": "zocdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnaUIDev/zocdoc.git"
+  },
+  "author": "krishna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishnaUIDev/zocdoc/issues"
+  },
+  "homepage": "https://github.com/krishnaUIDev/zocdoc#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  }
+}
